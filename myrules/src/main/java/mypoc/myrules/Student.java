@@ -6,12 +6,23 @@ package mypoc.myrules;
 
 public class Student implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public Student() {
-    }
+	private java.lang.String name;
 
+	public Student() {
+	}
 
+	public java.lang.String getName() {
+		return this.name;
+	}
 
+	public void setName(java.lang.String name) {
+		this.name = name;
+	}
+
+	public Student(java.lang.String name) {
+		this.name = name;
+	}
 
 }
