@@ -1,0 +1,3 @@
+[submodule "mypoc-myrepo"]
+	path = mypoc-myrepo
+	url = https://github.com/rockuritesh4u/mypoc-myrepo
